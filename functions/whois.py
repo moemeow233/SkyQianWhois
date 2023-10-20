@@ -64,7 +64,7 @@ class Whois:
         status = {
             'ok': '正常',
             'active': '正常',
-            'addperiod': '注册局设置的域名新注册期',
+            'addperiod': '域名新注册期',
             'clientdeleteprohibited': '注册商设置禁止删除',
             'serverdeleteprohibited': '注册局设置禁止删除',
             'clientupdateprohibited': '注册商设置禁止更新',
