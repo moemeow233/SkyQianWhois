@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="/static/main.min.css">
     <link rel="shortcut icon" href="/static/img/favicon.ico">
-    <title>Whois查询 - {{ url }}</title>
+    <title>江风のWhois查询 - {{ url }}</title>
     <meta name="Keywords" content="Whois查询,支持1700+域名后缀,主流whois查询,非主流whois查询,国别whois查询,新顶级whois查询,站长工具,whois工具,域名工具,域名查询,域名注册信息">
     <meta name="description" content="追求极致的whois查询。支持1700+后缀，同时支持价格、备案和IANA查询，提炼有效数据，时区自动转换，国别城市自动转中文，域名重要状态提示">
 </head>
@@ -16,7 +16,7 @@
     <form class="search_box" onsubmit="return Submit()">
         <div class="head">
             <label><a class="home_label" onclick="Home()">域名Whois查询</a></label><br>
-            <button id="reward_btn" type="button" onclick="RewardShow()">打赏</button>
+            <button id="reward_btn" type="button" onclick="RewardShow()">支持开发者</button>
             <div id="cost" onclick="RewardShow()">&nbsp;</div>
         </div>
         <span class="input_btn">
@@ -64,8 +64,8 @@
         <div class="close delete" onclick="RewardHidden()"></div>
     </div>
     <div class="reward_text">
-        <p>感谢您对 {{ url }} 的支持!</p>
-        <p>了解更多: www.yiove.com</p>
+       <a href="https://www.yiove.com" target="_blank">原作者主页</a>
+        <p>您的支持将全部转给开发者，以表彰他们对开源社区做出的巨大贡献。</p>
     </div>
 </div>
 <!-- 打赏弹出框 end-->
@@ -73,5 +73,8 @@
 <script type="text/javascript" src="/static/main.min.js"></script>
 <script charset="UTF-8" id="LA_COLLECT" src="https://fx.2ge.org/js-sdk-pro.min.js"></script>
 <script>LA.init({id:"KCuJOT5ZOej7qyuG",ck:"KCuJOT5ZOej7qyuG"})</script>
-
+<footer>
+    <p>原作者：<a href="www.yiove.com" target="_blank">勿埋我心</a>提供：<a href="blog.800233.xyz" target="_blank">江风Blog</a>
+    </p>
+</footer>
 </html>
